@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Group6Cafe
 {
-    public partial class Categories : Form
+    public partial class Owner : Form
     {
-        public Categories()
+        public Owner()
         {
             InitializeComponent();
         }

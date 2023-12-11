@@ -18,6 +18,7 @@ namespace Group6Cafe
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+
         {
 
         }
@@ -78,6 +79,11 @@ namespace Group6Cafe
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Products_Load(object sender, EventArgs e)
         {
 
         }

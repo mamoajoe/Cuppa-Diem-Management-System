@@ -21,5 +21,29 @@ namespace Group6Cafe
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (usernamebox.Text == " " && passwordbox.Text == " ")
+            {
+                MessageBox.Show("Missing Information");
+            }
+            else if (usernamebox.Text == "Admin" && passwordbox.Text == "Password")
+            {
+                MessageBox.Show("Login Sucessfull");
+                MainMenu obj = new MainMenu();
+                obj.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Correct Username and Password");
+            }
+        }
+
+        private void usernamebox_TextChanged(object sender, EventArgs e)
+        {
+
+        }Z
     }
 }

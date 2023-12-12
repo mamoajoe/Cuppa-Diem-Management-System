@@ -56,10 +56,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Location = new System.Drawing.Point(323, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 25);
+            this.label1.Size = new System.Drawing.Size(385, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cuppa Diem Management System";
             // 
@@ -111,7 +112,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(193)))), ((int)(((byte)(152)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(412, 437);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(182, 40);

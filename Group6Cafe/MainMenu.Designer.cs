@@ -43,19 +43,19 @@
             this.label5 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.Supplier = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.Owner = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.Products = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Manager = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Customers = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.Employee = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.Branch = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -64,13 +64,13 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Supplier)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Owner)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Products)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Manager)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Customers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Employee)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Branch)).BeginInit();
             this.SuspendLayout();
             // 
             // label12
@@ -95,7 +95,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(88, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 25);
@@ -104,7 +104,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.BackColor = System.Drawing.Color.AntiqueWhite;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(0, 526);
@@ -139,10 +139,11 @@
             this.label7.AutoSize = true;
             this.label7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(193)))), ((int)(((byte)(152)))));
+            this.label7.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Sienna;
             this.label7.Location = new System.Drawing.Point(69, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(405, 25);
+            this.label7.Size = new System.Drawing.Size(440, 25);
             this.label7.TabIndex = 6;
             this.label7.Text = "Cuppa Deim Cafe Management System";
             // 
@@ -182,7 +183,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(88, 189);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 25);
@@ -204,16 +205,16 @@
             this.label8.TabIndex = 85;
             this.label8.Text = "Main Menu";
             // 
-            // pictureBox7
+            // Supplier
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(969, 336);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 99;
-            this.pictureBox7.TabStop = false;
+            this.Supplier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Supplier.Image = ((System.Drawing.Image)(resources.GetObject("Supplier.Image")));
+            this.Supplier.Location = new System.Drawing.Point(969, 336);
+            this.Supplier.Name = "Supplier";
+            this.Supplier.Size = new System.Drawing.Size(127, 127);
+            this.Supplier.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Supplier.TabIndex = 99;
+            this.Supplier.TabStop = false;
             // 
             // label17
             // 
@@ -225,16 +226,16 @@
             this.label17.TabIndex = 98;
             this.label17.Text = "Supplier";
             // 
-            // pictureBox9
+            // Owner
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(757, 336);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 97;
-            this.pictureBox9.TabStop = false;
+            this.Owner.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Owner.Image = ((System.Drawing.Image)(resources.GetObject("Owner.Image")));
+            this.Owner.Location = new System.Drawing.Point(757, 336);
+            this.Owner.Name = "Owner";
+            this.Owner.Size = new System.Drawing.Size(127, 127);
+            this.Owner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Owner.TabIndex = 97;
+            this.Owner.TabStop = false;
             // 
             // label16
             // 
@@ -246,16 +247,17 @@
             this.label16.TabIndex = 96;
             this.label16.Text = "Owner";
             // 
-            // pictureBox6
+            // Products
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(421, 146);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 95;
-            this.pictureBox6.TabStop = false;
+            this.Products.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Products.Image = ((System.Drawing.Image)(resources.GetObject("Products.Image")));
+            this.Products.Location = new System.Drawing.Point(421, 146);
+            this.Products.Name = "Products";
+            this.Products.Size = new System.Drawing.Size(127, 127);
+            this.Products.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Products.TabIndex = 95;
+            this.Products.TabStop = false;
+            this.Products.Click += new System.EventHandler(this.Products_Click);
             // 
             // label6
             // 
@@ -267,16 +269,16 @@
             this.label6.TabIndex = 94;
             this.label6.Text = "Products";
             // 
-            // pictureBox3
+            // Manager
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(529, 336);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 93;
-            this.pictureBox3.TabStop = false;
+            this.Manager.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Manager.Image = ((System.Drawing.Image)(resources.GetObject("Manager.Image")));
+            this.Manager.Location = new System.Drawing.Point(529, 336);
+            this.Manager.Name = "Manager";
+            this.Manager.Size = new System.Drawing.Size(127, 127);
+            this.Manager.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Manager.TabIndex = 93;
+            this.Manager.TabStop = false;
             // 
             // label1
             // 
@@ -288,16 +290,16 @@
             this.label1.TabIndex = 92;
             this.label1.Text = "Manager";
             // 
-            // pictureBox4
+            // Customers
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(856, 146);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 91;
-            this.pictureBox4.TabStop = false;
+            this.Customers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Customers.Image = ((System.Drawing.Image)(resources.GetObject("Customers.Image")));
+            this.Customers.Location = new System.Drawing.Point(856, 146);
+            this.Customers.Name = "Customers";
+            this.Customers.Size = new System.Drawing.Size(127, 127);
+            this.Customers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Customers.TabIndex = 91;
+            this.Customers.TabStop = false;
             // 
             // label4
             // 
@@ -309,16 +311,16 @@
             this.label4.TabIndex = 90;
             this.label4.Text = "Customer";
             // 
-            // pictureBox10
+            // Employee
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(1059, 146);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 89;
-            this.pictureBox10.TabStop = false;
+            this.Employee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Employee.Image = ((System.Drawing.Image)(resources.GetObject("Employee.Image")));
+            this.Employee.Location = new System.Drawing.Point(1059, 146);
+            this.Employee.Name = "Employee";
+            this.Employee.Size = new System.Drawing.Size(127, 127);
+            this.Employee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Employee.TabIndex = 89;
+            this.Employee.TabStop = false;
             // 
             // label2
             // 
@@ -330,16 +332,16 @@
             this.label2.TabIndex = 88;
             this.label2.Text = "Employee";
             // 
-            // pictureBox11
+            // Branch
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(642, 146);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(127, 127);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 87;
-            this.pictureBox11.TabStop = false;
+            this.Branch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(229)))), ((int)(((byte)(215)))));
+            this.Branch.Image = ((System.Drawing.Image)(resources.GetObject("Branch.Image")));
+            this.Branch.Location = new System.Drawing.Point(642, 146);
+            this.Branch.Name = "Branch";
+            this.Branch.Size = new System.Drawing.Size(127, 127);
+            this.Branch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Branch.TabIndex = 87;
+            this.Branch.TabStop = false;
             // 
             // label9
             // 
@@ -357,19 +359,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1394, 589);
-            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.Supplier);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.Owner);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.Products);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.Manager);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.Customers);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.Employee);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.Branch);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label12);
@@ -391,13 +393,13 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Supplier)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Owner)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Products)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Manager)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Customers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Employee)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Branch)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -418,19 +420,19 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox Supplier;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox Owner;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox Products;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox Manager;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox Customers;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox Employee;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox Branch;
         private System.Windows.Forms.Label label9;
     }
 }

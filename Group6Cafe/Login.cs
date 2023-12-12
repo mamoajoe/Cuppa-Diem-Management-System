@@ -44,6 +44,6 @@ namespace Group6Cafe
         private void usernamebox_TextChanged(object sender, EventArgs e)
         {
 
-        }Z
+        }
     }
 }
